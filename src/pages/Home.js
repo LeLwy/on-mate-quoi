@@ -5,7 +5,7 @@ const Home = () => {
 
     return (
         <div className='home-container'>
-            <h1 className='sr-only'>React Movies - Accueil</h1>
+            <h1 className='sr-only'>On mate quoi ? - Accueil</h1>
             <Header />
             <Movies />
         </div>
