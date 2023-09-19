@@ -22,7 +22,7 @@ const Favorites = () => {
     }, []);
 
     return (
-        <div className='favorites-main-container'>
+        <div className='main-container'>
             <h1 className='sr-only'>On mate quoi ? - Favoris</h1>
             <Header />
             <section className="favorites-main-container">

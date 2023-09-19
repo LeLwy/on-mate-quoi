@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 const Credits = () => {
     return (
-        <div>
+        <div className='main-container'>
             <h1 className='sr-only'>On mate quoi ? - Crédits</h1>
             <Header />
         </div>
