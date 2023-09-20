@@ -1,6 +1,11 @@
 .movies-container{
 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
     .search{
+
+        grid-column: 1/7;
 
         input{
 
@@ -23,9 +28,13 @@
 
     .movies{
 
+        display: flex;
+        flex-wrap: wrap;
+        grid-column: 2/7;
     }
 
     .filters{
 
+        grid-column: 1/2;
     }
 }
