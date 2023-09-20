@@ -126,7 +126,7 @@ const MovieCard = ({movie}) => {
                       : <button
                             onClick={() => addStorage()}
                         >
-                            <span>➕ Ma liste</span>
+                            <span>➕</span> Ma liste
                         </button>
                   )
                   : (
@@ -136,7 +136,7 @@ const MovieCard = ({movie}) => {
                           window.location.reload();
                         }}
                     >
-                        Supprimer de la liste
+                        <span>➖</span> Supprimer
                     </button>
                   )
               }
