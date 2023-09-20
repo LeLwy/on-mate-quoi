@@ -34,6 +34,9 @@ const Movies = () => {
                     >Flop ↓</button>
                 </section>
             </section>
+            <aside className="filters">
+
+            </aside>
             <section className="movies">
                 {
                     moviesToDisplay &&
@@ -42,9 +45,6 @@ const Movies = () => {
                             .map((movie, index) => <MovieCard key={index} movie={movie} />)
                 }
             </section>
-            <aside className="filters">
-
-            </aside>
         </div>
     );
 };
