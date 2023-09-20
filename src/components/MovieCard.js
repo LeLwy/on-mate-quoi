@@ -126,7 +126,7 @@ const MovieCard = ({movie}) => {
                       : <button
                             onClick={() => addStorage()}
                         >
-                            Ajouter aux favoris
+                            <span>➕ Ma liste</span>
                         </button>
                   )
                   : (
